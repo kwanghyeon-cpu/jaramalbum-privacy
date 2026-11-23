@@ -21,7 +21,7 @@
 <h1>자람 앨범 개인정보처리방침</h1>
 <p class="muted">시행일: 2026년 11월 23일</p>
 
-<p>자람 앨범(이하 "앱")은 휴대폰 갤러리의 사진을 아이의 생후 개월 수에 맞춰 정리해 보여주는 앱입니다. 앱은 「개인정보 보호법」을 지키며, <strong>회원가입이 없고 서버가 없습니다. 아이 정보와 기록은 모두 사용자의 기기 안에만 저장되며, 개발자에게 전송되지 않습니다.</strong> 무료로 제공하기 위해 화면 아래쪽에 광고가 나옵니다.</p>
+<p>자람 앨범(이하 "앱")은 휴대폰 갤러리의 사진을 아이의 생후 개월 수에 맞춰 정리해 보여주는 앱입니다. 앱은 「개인정보 보호법」을 지키며, <strong>회원가입이 없고 서버가 없습니다. 아이 정보와 기록은 사용자의 기기에 저장되며, 개발자에게 전송되지 않습니다.</strong> 무료로 제공하기 위해 화면 아래쪽에 광고가 나옵니다.</p>
 
 <h2>1. 처리하는 정보</h2>
 <ul>
@@ -30,31 +30,34 @@
   <li><strong>사용자가 입력한 정보</strong>: 아이 이름(애칭), 생일, 사진 메모, 첫 순간 기록, 키·몸무게 기록.</li>
   <li><strong>얼굴 분석(선택 기능 "아이 얼굴로 고르기")</strong>: 사용자가 이 기능을 시작한 경우에만, 사진 속 얼굴을 찾아 얼굴의 특징값(숫자 목록)을 계산하고, 사용자가 고른 기준 사진의 얼굴과 비교해 아이가 나오지 않은 사진을 찾습니다. 분석은 기기 안에서만 이루어지며, 얼굴 사진이나 특징값은 개발자나 Google을 포함한 누구에게도 전송되지 않습니다. 특징값은 별도 파일에 저장되며 휴대폰 자동 백업과 기기 간 전송에서도 제외됩니다. 얼굴 분석에 필요한 데이터(인식 모델)는 Google Play와 Google Play 서비스에서 내려받으며, 이때 사용자 정보는 보내지 않습니다.</li>
 </ul>
-<p>위 정보는 모두 기기 안의 앱 저장소에만 저장됩니다.</p>
+<p>위 정보는 기기 안의 앱 저장소에 저장됩니다(휴대폰 백업은 2번 참고).</p>
 
-<h2>2. 외부로 전송되는 정보</h2>
+<h2>2. 휴대폰 백업</h2>
+<p>휴대폰에서 Google 백업(Android 자동 백업)이 켜져 있으면, Android가 앱 기록(아이 이름·생일, 메모, 첫 순간, 키·몸무게 기록, 고른 폴더, 사진 목록과 장소 이름)을 <strong>사용자 본인의 Google 계정 백업</strong>에 함께 저장할 수 있습니다. 휴대폰을 바꾸거나 앱을 다시 설치할 때 기록을 되살리기 위한 기능이며, 백업은 Google이 암호화해 보관하고 개발자는 볼 수 없습니다. 사진 원본은 앱 백업에 포함되지 않으며, <strong>얼굴 분석 결과는 백업과 기기 간 전송에서 제외</strong>됩니다. 휴대폰 설정의 Google 백업 메뉴에서 백업을 끄거나 지울 수 있습니다.</p>
+
+<h2>3. 외부로 전송되는 정보</h2>
 <p>앱은 개발자에게 아무것도 보내지 않습니다. 다만 아래 기능은 Google 서비스를 이용하며, 이때 일부 정보가 Google로 전송될 수 있습니다.</p>
 <ul>
   <li><strong>지도(Google Maps SDK)</strong>: 지도 화면을 열면 화면에 보이는 지역의 지도를 Google 서버에서 받습니다. 이 과정에서 Google Maps SDK가 기기 정보, IP 주소, SDK 식별자, 오류 정보, 지도 조작 정보 등을 수집할 수 있습니다. 사진 자체나 사진 목록은 전송되지 않습니다.</li>
-  <li><strong>장소 이름 찾기</strong>: 사진의 좌표를 "서울특별시 마포구" 같은 장소 이름으로 바꾸기 위해 휴대폰에 내장된 Android 지오코더를 사용합니다. 이때 해당 사진의 좌표가 기기의 지오코딩 서비스(보통 Google)로 전송될 수 있습니다. 찾은 장소 이름은 기기에만 저장됩니다.</li>
+  <li><strong>장소 이름 찾기</strong>: 사진의 좌표를 "서울특별시 마포구" 같은 장소 이름으로 바꾸기 위해 휴대폰에 내장된 Android 지오코더를 사용합니다. 이때 해당 사진의 좌표가 기기의 지오코딩 서비스(보통 Google)로 전송될 수 있습니다. 찾은 장소 이름은 기기에 저장됩니다.</li>
   <li><strong>글꼴</strong>: 제목 글꼴(고운돋움)을 Google Play 서비스에서 내려받습니다. 사용자 정보는 포함되지 않습니다.</li>
   <li><strong>광고(Google AdMob)</strong>: 홈 화면 아래쪽에 배너 광고를 보여줍니다. 광고를 보여주기 위해 Google AdMob이 광고 ID 등 기기 식별자, IP 주소(대략적인 위치), 광고 노출·클릭 같은 앱 이용 정보, 오류 정보를 수집할 수 있습니다. 아이 사진, 아이 정보, 메모·성장 기록은 광고에 쓰이지 않으며 전송되지 않습니다. 유럽 등 동의가 필요한 지역에서는 광고 전에 동의를 묻고, 앱의 설정 화면에서 언제든 바꿀 수 있습니다. 휴대폰 설정에서 광고 ID를 재설정하거나 맞춤 광고를 끌 수 있습니다.</li>
 </ul>
 <p>Google의 정보 처리는 <a href="https://policies.google.com/privacy?hl=ko">Google 개인정보처리방침</a>을 따릅니다.</p>
 
-<h2>3. 포토북 PDF</h2>
+<h2>4. 포토북 PDF</h2>
 <p>포토북 PDF는 사용자가 고른 위치에만 저장됩니다. 공유는 사용자가 [공유]를 눌러 직접 고른 앱으로만 이루어집니다.</p>
 
-<h2>4. 보관 기간과 삭제</h2>
-<p>기록은 사용자가 지울 때까지 기기에 보관됩니다. 메모·첫 순간·성장 기록은 앱에서 하나씩 지울 수 있고, 얼굴 분석 결과는 설정 → 아이 얼굴로 고르기 → "얼굴 분석 기록 지우기"로 한 번에 지울 수 있습니다. 앱을 삭제하면 모든 기록이 함께 삭제됩니다. 갤러리의 사진 원본은 앱이 지우거나 바꾸지 않습니다. 개발자는 기록을 가지고 있지 않으므로 따로 삭제를 요청할 필요가 없습니다.</p>
+<h2>5. 보관 기간과 삭제</h2>
+<p>기록은 사용자가 지울 때까지 기기에 보관됩니다. 메모·첫 순간·성장 기록은 앱에서 하나씩 지울 수 있고, 얼굴 분석 결과는 설정 → 아이 얼굴로 고르기 → "얼굴 분석 기록 지우기"로 한 번에 지울 수 있습니다. 앱을 삭제하면 기기의 모든 기록이 함께 삭제됩니다. 본인의 Google 백업에 남은 사본은 휴대폰 설정의 Google 백업 메뉴에서 지울 수 있습니다. 갤러리의 사진 원본은 앱이 지우거나 바꾸지 않습니다. 개발자는 기록을 가지고 있지 않으므로 따로 삭제를 요청할 필요가 없습니다.</p>
 
-<h2>5. 아동의 개인정보</h2>
-<p>이 앱은 부모 등 보호자가 사용하는 앱입니다. 보호자가 입력한 아이 정보는 위와 같이 기기 안에만 저장되며 외부로 전송되지 않습니다.</p>
+<h2>6. 아동의 개인정보</h2>
+<p>이 앱은 부모 등 보호자가 사용하는 앱입니다. 보호자가 입력한 아이 정보는 위와 같이 기기(와 보호자 본인의 Google 백업)에만 저장되며, 개발자나 광고에 전송되지 않습니다.</p>
 
-<h2>6. 문의</h2>
+<h2>7. 문의</h2>
 <p>개인정보 관련 문의: <a href="mailto:kwanghyeon@kakao.com">kwanghyeon@kakao.com</a></p>
 
-<h2>7. 변경</h2>
+<h2>8. 변경</h2>
 <p>이 방침이 바뀌면 이 페이지에 시행일과 함께 알립니다.</p>
 
 <hr>
@@ -62,7 +65,7 @@
 <h1>Jaram Album Privacy Policy</h1>
 <p class="muted">Effective: November 23, 2026</p>
 
-<p>Jaram Album ("the app") organizes the photos in your phone's gallery by your child's age in months. There is no sign-up and no server. <strong>Your child's details and records stay on your device and are never sent to the developer.</strong></p>
+<p>Jaram Album ("the app") organizes the photos in your phone's gallery by your child's age in months. There is no sign-up and no server. <strong>Your child's details and records are stored on your device and are never sent to the developer.</strong></p>
 
 <h2>1. Information the app handles</h2>
 <ul>
@@ -71,9 +74,12 @@
   <li><strong>What you enter</strong>: your child's name or nickname, birthday, photo notes, milestones, and height/weight records.</li>
   <li><strong>Face analysis (optional "Pick by face" feature)</strong>: only if you start this feature, the app finds faces in your photos, computes face feature values (a list of numbers), and compares them with the reference photos you choose to find photos your child is not in. Analysis happens only on your device; face images and feature values are never sent to anyone, including the developer and Google. Feature values are stored in a separate file that is excluded from phone backups and device-to-device transfer. The recognition model is downloaded from Google Play and Google Play services without sending your data.</li>
 </ul>
-<p>All of this is stored only in the app's storage on your device.</p>
+<p>All of this is stored in the app's storage on your device (see section 2 for phone backup).</p>
 
-<h2>2. Information sent off the device</h2>
+<h2>2. Phone backup</h2>
+<p>If Google backup (Android Auto Backup) is turned on for your phone, Android may include the app's records (your child's name and birthday, notes, milestones, height/weight records, chosen folders, the photo list and place names) in <strong>your own Google account backup</strong>, so they can be restored when you change phones or reinstall. Google encrypts the backup and the developer cannot see it. Original photos are not part of the app backup, and <strong>face analysis results are excluded from backup and device-to-device transfer</strong>. You can turn off or delete the backup in your phone's Google backup settings.</p>
+
+<h2>3. Information sent off the device</h2>
 <p>Nothing is sent to the developer. Some features use Google services, which may receive the following:</p>
 <ul>
   <li><strong>Map (Google Maps SDK)</strong>: map tiles for the area you view are downloaded from Google. The SDK may collect device information, IP address, an SDK identifier, crash data, and map interaction data. Photos and photo lists are not sent.</li>
@@ -83,19 +89,19 @@
 </ul>
 <p>Google's processing is governed by the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
 
-<h2>3. Photobook PDF</h2>
+<h2>4. Photobook PDF</h2>
 <p>PDFs are saved only where you choose, and shared only with apps you pick.</p>
 
-<h2>4. Retention and deletion</h2>
-<p>Records stay on your device until you delete them. Notes, milestones, and growth records can be deleted in the app; face analysis results can be cleared at once in Settings → Pick by face → "Clear face analysis"; and uninstalling the app deletes everything. The app never deletes or changes your original photos.</p>
+<h2>5. Retention and deletion</h2>
+<p>Records stay on your device until you delete them. Notes, milestones, and growth records can be deleted in the app; face analysis results can be cleared at once in Settings → Pick by face → "Clear face analysis"; and uninstalling the app deletes everything on the device. A copy in your own Google backup can be deleted in your phone's Google backup settings. The app never deletes or changes your original photos.</p>
 
-<h2>5. Children</h2>
-<p>The app is meant for parents and guardians. Details entered about a child stay on the device and are never transmitted.</p>
+<h2>6. Children</h2>
+<p>The app is meant for parents and guardians. Details entered about a child are stored only on the device (and in the guardian's own Google backup) and are never sent to the developer or used for ads.</p>
 
-<h2>6. Contact</h2>
+<h2>7. Contact</h2>
 <p><a href="mailto:kwanghyeon@kakao.com">kwanghyeon@kakao.com</a></p>
 
-<h2>7. Changes</h2>
+<h2>8. Changes</h2>
 <p>Changes to this policy will be posted on this page with a new effective date.</p>
 </main>
 </body>
